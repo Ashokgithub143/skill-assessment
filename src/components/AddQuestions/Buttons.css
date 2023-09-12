@@ -1,0 +1,32 @@
+.submit{
+    top:1rem;
+    width: Hug (167px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #7BCCED;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(0deg, #7BCCED,#7BCCED),
+    linear-gradient(0deg, #DFF3FB, #DFF3FB);
+    color: rgba(55, 63, 71, 1);
+}
+.addq{
+    left: 2%;
+    top: 1rem;
+    width: Hug (191px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    border: 1px solid #7BCCED;
+    gap: 10px;
+}
+.buttons{
+    margin-bottom: 2%;
+}

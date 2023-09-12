@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../../../fonts/Manrope-Regular.ttf") format("truetype");
+}
+
+.parent_Div {
+  width: 100%;
+  height: 110%;
+  margin-left: 16px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid var(--primarybluepri-2100, #afe0f4);
+  background: var(--least-blue, #f8fdff);
+  display: flex;
+  flex-direction: column;
+}
+.parent_Divnull {
+  display: flex;
+  justify-content: space-between;
+  width: 8rem;
+}
+
+.child_Div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.question {
+  color: var(--textcolortext-800, #242d35);
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 35px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.buttons {
+  padding-left: 12px;
+  margin-left: 50rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 2rem;
+  width: 100%;
+}
+
+.edit_Button {
+  width: 20px;
+  height: 20px;
+  margin-left: 80rem;
+  margin-top: -3rem;
+}
+.delete_Button {
+  width: 20px;
+  height: 20px;
+  margin-left: 2rem;
+  margin-top: -3rem;
+}

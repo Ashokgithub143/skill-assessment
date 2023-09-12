@@ -1,0 +1,16 @@
+.main-container {
+    /* border: 1px solid #000; */
+    margin-left: 15%;
+    margin-top: 6%;
+    padding: 30px;
+}
+
+.top-form-section {
+    display: flex;
+}
+
+.top-form-section .select-dropdown:last-child {
+    margin-left: auto;
+    margin-right: 35px;
+}
+

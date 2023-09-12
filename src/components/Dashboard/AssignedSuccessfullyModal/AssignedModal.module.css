@@ -1,0 +1,73 @@
+.assigned_Modal_Layout {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.4);
+  font-family: "Manrope";
+
+  z-index: 3100;
+}
+
+.success_Modal {
+  height: 130%;
+  width: 100%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: white;
+  border-radius: 1.5rem;
+  position: absolute;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal_Actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal_Heading {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.modal_Subheading {
+  color: gray;
+  margin-bottom: 2.5rem;
+}
+
+.copy_Link {
+  height: 48px;
+  width: 7vw;
+  border-radius: 0.4rem;
+  border: solid 0.1rem rgba(10, 10, 10, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.8rem;
+}
+
+.copy_Guide {
+  color: gray;
+  margin-top: 1rem;
+}
+
+.email_Sent_Image {
+  height: 5rem;
+  width: 7rem;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}

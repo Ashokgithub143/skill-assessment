@@ -1,0 +1,63 @@
+.modal-button{
+    cursor: pointer;
+    border: none;
+   
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+  
+    background-color: transparent;
+  
+  }
+
+  .clearall-span{
+margin-right: 20px;
+color: #A8B0B9;
+  }
+
+  .filters{
+    margin-right: 170px;
+
+    font-family: 'Manrope';
+    font-size: large;
+    font-weight: 500;
+
+  }
+  .apply-span{
+    color: #1589CC;
+  }
+  
+
+
+  #sort {
+    position:relative;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    
+  
+    cursor: pointer !important;
+    background-color: #DFF3FB;
+    border-radius: 4px;
+  }
+  #sort-svg{
+    position: relative;
+    width: 12px;
+    margin-top: 9px;
+    
+  }
+  
+
+  .sort-button{
+position: relative;
+
+   cursor: pointer;
+  border: none;
+ 
+
+  background-color: transparent;
+
+
+    
+  }

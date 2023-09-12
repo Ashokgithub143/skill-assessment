@@ -1,0 +1,28 @@
+  .progress-container {
+    position: relative;
+    width: 250px;
+    height: 7px;
+  }
+  
+  .progress-bar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #c7ccd1;
+    border-radius: 30px; /* To make the progress bar rounded */
+    overflow: hidden; /* Hide overflowing part of the ellipse */
+  }
+  
+  .progress-fill {
+    width: 50%; /* Set the progress percentage here */
+    height: 100%;
+    background-color: #008be1; /* Blue color for the progress fill */
+    border-radius: 30px; /* To make the progress bar rounded */
+  }
+  
+  .ellipse-svg {
+    position: absolute;
+    top: -0.5px; /* Half of the SVG height to center it on the progress bar */
+    left: calc(50% - 4px); /* Adjust this value to center the ellipse on the progress bar */
+  }
+  

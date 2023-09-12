@@ -1,0 +1,72 @@
+#create-assessment-button{
+    background-color: #00b7ff;
+    color: #4F5B67;
+    padding: 8px;
+    text-transform: capitalize;
+    font-size: 130%;
+    width: 110%;
+    box-shadow: none;
+}
+#create-assessment-button:hover{
+    background-color: #7BCCED;
+    box-shadow: none;
+}
+
+.create-assessment-close{
+    position: relative;
+    left: 560px;
+    width: 30px;
+    height: 30px;
+}
+
+.create-assessment-title{
+    font-size: 19px;
+    font-weight: 600;
+    width: 80%;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+.jobseeker-assessment-port{
+    padding: 25px;
+}
+.asssessment-form{
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 90%;
+}
+.assessment-details{
+    color: #717D8A;
+}
+.assessment-id-text{
+    width: 100%;
+}
+
+.date-of-completion{
+    position: relative;
+    bottom: 8px;
+    width: 48%;
+}
+.no-of-questions{
+    width: 48%;
+}
+
+.add-description{
+    width: 100%;
+}
+
+.button-container{
+    width: 40%;
+    position: relative;
+    left: 60%;
+}
+.button-container > Button {
+    text-transform: capitalize;
+    color: #717D8A;
+}
+.send-mail-btn{
+    width: 50%;
+}

@@ -1,0 +1,197 @@
+.demo_row{
+    margin-top: 12%;
+    margin-left: 4%;
+}
+.basic{
+     
+    margin-top: -10%;
+}
+.Intermediate{
+ 
+    margin-top: -10%;
+}
+
+.Advanced{
+    margin-left: 2rem;
+    margin-top: -10%;
+}
+
+.row{
+    margin-top: -1%;
+    display: flex;
+    flex-direction: row;
+   }
+
+.circle{
+    margin-top: 3%;
+   
+}
+.option_Title{
+    margin-bottom: 3.5%;
+    margin-left: 0.5%;
+    color: rgba(12, 17, 22, 1);
+    font-family: Manrope;
+    font-size: 150%;
+    font-weight: 1000;
+    line-height: 27px;
+    letter-spacing: 0px;
+    margin-top: 3%;
+}
+#outlined-basic{
+    min-width: 70%;
+    left: 50%;
+ }
+ .btn{
+    height: 20%;
+    border: 1%;
+    border-color: aliceblue;
+ }
+ .seperator{
+    margin-top:7%;
+    width:100%;
+    margin-right: 15rem;
+ }
+ .save-Btn{
+    width: Hug (77px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    gap: 10px;
+    border: 1px solid rgba(123, 204, 237, 1);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.edit-Btn{
+    width: Hug (70px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #fbfdf8;
+}
+.Copy_Question{
+    margin-left: 80%;
+    margin-top: 1%;
+}
+.Delete_Question{
+    margin-left: 92%;
+    margin-top: 0.7%;
+    cursor: pointer;
+}
+.Trash{
+    display: flex;
+    flex-direction: row;
+}
+.tick{
+    width: 56px;
+    height: 68px;
+    left: 1126px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 1px;
+    margin-top: 0.7%;
+    cursor: pointer;
+}
+.add_More_Question{
+    margin-left: 62%;
+    font-family: Manrope;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 1%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.checkbox{
+    background: rgba(79, 91, 103, 1);
+    width: 20px;
+    height: 20px;
+}
+
+.div{
+    position: relative;
+    flex-direction: row;
+}
+
+.radio{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.network{
+    height: 1.1rem;
+    width: 80%;
+    margin-right: 0.6rem;
+}
+/* .chat{
+    display: flex;
+    flex-direction: row;
+    margin-left: -4.2rem;
+} */
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 1rem;
+   
+}
+.tick.active path {
+    fill:white;
+}
+.optionContainer {
+    margin-bottom: -3.5rem; 
+    
+  }
+.type{
+    display: flex;
+    flex-direction: row;
+
+}
+.flex_Container{
+    position: relative;
+    left: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.submit{
+    top:1rem;
+    width: Hug (167px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #7BCCED;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(0deg, #7BCCED,#7BCCED),
+    linear-gradient(0deg, #DFF3FB, #DFF3FB);
+    color: rgba(55, 63, 71, 1);
+}
+.addq{
+    left: 2%;
+    top: 1rem;
+    width: Hug (191px);
+    height: Hug (44px);
+    padding: 11px 20px 11px 20px;
+    border-radius: 4px;
+    border: 1px solid #7BCCED;
+    gap: 10px;
+}
+.buttons{
+    margin-bottom: 2%;
+}

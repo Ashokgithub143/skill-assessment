@@ -1,0 +1,78 @@
+.encompass{
+  width: 100%;
+  grid-column: 1 / 15;
+}
+
+.heading{
+  color: rgba(12, 17, 22, 1);
+}
+
+.sub_Heading {
+  text-align: left;
+  color: rgba(79, 91, 103, 1);
+}
+
+.mod_Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: 15 / 26;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign_Text {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.welcome_Text {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: #626d8a;
+}
+
+.email_Label {
+  align-self: flex-start;
+  font-size: 0.9rem;
+  color: #626d8a;
+}
+
+.email_Input {
+  margin-top: 0.3rem;
+}
+
+.password_Section {
+  display: flex;
+  flex-direction: column;
+}
+
+.email_Section {
+  display: flex;
+  flex-direction: column;
+}
+
+.password_Label {
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #626d8a;
+}
+
+.password_Input {
+  margin-top: 0.3rem;
+}
+
+.hover_Signin:hover {
+  background-color: #94d6f1;
+}
+
+.hover_Signin {
+  border: 1px solid #54c0eb;
+  box-shadow: none;
+}

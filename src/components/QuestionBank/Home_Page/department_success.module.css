@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("../../../fonts/Manrope-Regular.ttf") format("truetype");
+}
+
+.div_Display {
+  margin-left: 470px;
+  margin-top: 70px;
+  display: inline-flex;
+  padding: 4px 8px;
+  align-items: flex-end;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--primary-01-pri-1300, #bad881);
+}
+
+.tick {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 14px;
+  margin-left: 12px;
+  fill: var(--textcolortext-900, #0c1116);
+}
+
+.text {
+  color: var(--textcolortext-900, #0c1116);
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 12px;
+}

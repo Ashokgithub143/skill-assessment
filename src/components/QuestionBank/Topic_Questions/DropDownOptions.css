@@ -1,0 +1,118 @@
+.answertype-Label {
+  margin-top: 1%;
+  margin-left: 4%;
+}
+.save_Btn {
+  display: inline-flex;
+  padding: 11px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid #7bcced;
+  left: 3%;
+  top: 7%;
+}
+.save_Text {
+  color: var(--textcolortext-600, #4f5b67);
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.edit_Btn {
+  display: inline-flex;
+  padding: 11px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.addmore-Options {
+  margin-left: 55%;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0.5%;
+  cursor: pointer;
+  color: var(--textcolortext-900, #0c1116);
+}
+.option-Letter {
+  color: var(--textcolortext-900, #0c1116);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 3rem;
+  margin-top: -2rem;
+}
+.answer_Type {
+  border-radius: 4px;
+  border: 1px solid var(--textcolortext-300, #d6dade);
+  background: var(--layoutcolorlayout-01, #fff);
+  width: -90rem;
+}
+.correct-Option {
+  color: var(--textcolortext-800, #242d35);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.answer-Explanation {
+  color: var(--textcolortext-600, #4f5b67);
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.explanation-Heading {
+  color: var(--textcolortext-800, #242d35);
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.tick-Mark {
+  background: rgba(79, 91, 103, 1);
+  width: 20px;
+  height: 20px;
+}
+
+.line-Seperator {
+  margin-top: 6.5%;
+  width: 100%;
+  margin-right: 15rem;
+}
+.tick {
+  width: 56px;
+  height: 68px;
+  left: 1126px;
+  padding: 11px;
+  border-radius: 4px;
+  border: 1px;
+  margin-top: 1%;
+}
+
+.tick.active path {
+  fill: white;
+}
+.option-Container {
+  margin-top: 5%;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+}

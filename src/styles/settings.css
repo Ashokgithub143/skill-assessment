@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 230px;
+  background-image: url('../assets/img/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile{
+  width: 160px;
+  height: 160px;
+  margin-bottom: 50px;
+  margin-top: -80px;
+  padding: 15px;
+  border-radius: 150px;
+}
+.main_Heading{
+  margin-left:auto;
+  width: auto;
+}
+/* Edit Button */
+.edit {
+  width: auto;
+  height: auto;
+  top: 114px;
+  left: 100px;
+  border: 1px solid #08d2a9;
+  font-family: 'Manrope', sans-serif;
+  text-transform: none;
+  display: inline-block;
+  font-weight: 100px;
+  padding: 20px 40px; /* You can adjust padding as needed */
+   /* Text color */
+  text-align: center; /* Center text horizontally */
+  /* Center text vertically */
+  text-decoration: none; /* Remove underline by default on links */
+  cursor: pointer; /* Show hand cursor on hover */
+  color: black;
+  z-index: 20;
+}
+
+.grid{
+  width: 1150px;
+  margin-top: 25px;
+}
+.stack{
+  margin: 10px;
+  height: 30px;
+}
+
+/* Save Changes Button */
+.save_Button {
+  background-color: #7BCCED;
+  color: #4F5B67;
+  font-family: 'Manrope', sans-serif;
+  text-transform: none;
+  width: 160px;
+  height: 44px;
+  margin-top: 15px;
+}
+
+/* Change Password Button */
+.change_Password_Button {
+  color: #717D8A;
+  text-transform: none;
+  margin-top: 15px;
+}

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../fonts/Manrope-Regular.ttf') format('truetype');
+    
+}
+
+.rectangle {
+  width: 500px;
+  height: 300px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 12px 64px 0px rgba(36, 37, 51, 0.1);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.green_tick_style{
+width: 74px;
+height: 74px;
+flex-shrink: 0;
+margin-left: 200px;
+margin-top: 60px;
+background: url('../../assets/img/green_tick.gif'),white 50% / cover no-repeat;
+}
+
+.added{
+color: #282828;
+text-align: center;
+/* H1 heading/Semibold/24px */
+font-family: 'Manrope',sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 4px;
+}
+
+.reflected{
+width: 406px;
+margin-left: 40px;
+color: var(--secondary-gray, #626D8A);
+text-align: center;
+font-family: 'Manrope',sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 164.286% */
+}
+
+.x_mark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 17px;
+    height: 17px;
+    flex-shrink:0;
+}

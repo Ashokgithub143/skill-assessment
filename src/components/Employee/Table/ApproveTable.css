@@ -1,0 +1,417 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../fonts/Manrope-Regular.ttf') format('truetype');
+}
+*{
+  font-family: Manrope;
+}
+#status-complete {
+    width: 55px;
+    height: 15px;
+    background: #d6f3e9;
+    border-radius: 4px;
+    text-align: center;
+  }
+  #completed {
+    padding-top: 1px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    text-align: center;
+    color: #039855;
+  }
+  #status-notcomplete {
+    width: 60px;
+    height: 15px;
+    text-align: center;
+    background: #fde1e1;
+    border-radius: 4px;
+  }
+  #notcomplete {
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    text-align: center;
+    color: #bb251a;
+  }
+  #viewresult {
+    width: 102px;
+    height: 36px;
+  }
+  #three-dot {
+    position: absolute;
+    height: 70.999999046325684px;
+    width: 50.3999996185302734px;
+    border-radius: 0px;
+  } 
+  table {
+    position: relative;
+    left: 17%;
+    top:150px;
+    height: max-content;
+    width: 1100px;
+    border-spacing: 0;
+    border: 0.5px solid #ccc;
+    font-family: 'Manrope';    
+  }
+  thead th{
+    width: max-content; 
+    padding-left: 20px;
+    padding-right: 10px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #0c1116;   
+  }
+  .table-Head-Data{
+
+    position:relative;
+    top:10px;
+
+  }
+  td { 
+    padding: 0;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #0c1116;
+  }
+  #table-td {
+    position: relative;
+    background-color: #dff3fb;  
+    font-family: 'Manrope';
+    font-weight: 500;
+    color: #0C1116;
+    font-size: 10px; 
+  }
+  .view-result {
+    width: 90px;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    background-color: transparent;
+    border:none;
+    text-decoration-line: underline;
+    color: #1589cc;
+  }
+  table tbody tr td {
+    padding-left: 20px;
+}
+  .popup-inner-button{     
+     height: 32px;
+     border: none;
+     border-radius: 5px;
+     width: 125px;
+     background-color: white;
+     text-align: left;
+    }
+.popup-inner-button:hover{
+  background-color: rgb(225,238,200);
+   }
+.popupx {
+        position: absolute;
+        padding: 3px;
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 0px 1px rgba(67, 90, 111, 0.47);
+        border-radius: 8px;
+        background: #FDFDFD;
+        z-index: 10000000000000;
+        margin-left:-120px;
+        margin-top:-90px;
+    }
+    .viewpopupx{
+      position: absolute;
+      z-index: 10000000000;
+      margin-left: 100px;
+    }
+    .overlayx {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        z-index: 1000000000;
+    }
+    .overlayxy {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.3);
+      z-index: 1000000;
+  }
+.action-Button{
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  background-color: transparent;
+}
+#rows{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+     top: 98%;
+    left: 20% ;   
+  }
+  #rows-per-page {
+    width: 95px;
+    height: 18px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #717d8a;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  #rows-gotopage{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    top: 98%;
+    left: 88% ;
+  }
+  #rows-gotopage p{
+    font-size: 11px;
+  }
+  #row-num {
+    width: 15px;
+    height: 18px;
+    padding-left: 10px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #242d35;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #242d35;
+  }
+  #carret-down {
+    padding-left: 9px;   
+  }
+  #footer{
+    position:relative;
+    margin-top: 15%; 
+  }
+  .page-link{
+border-color: transparent;
+      box-shadow: none;
+      color: #080000;
+      font-size: 100px;
+}
+.page-link:focus{
+box-shadow: none;
+border: 1px solid #D6DADE; 
+}
+#nav-bottom{
+position: absolute;
+margin-bottom: 10px;
+margin-left:190px;
+}
+.svg-container {
+  position: relative;
+  bottom:10px;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+.pagination{
+  display: flex;
+  padding-top: 160px;
+  padding-bottom:10px;
+  padding-left: 280px;
+}
+.pagination-page{
+  padding-left: 280px;
+}
+.pagination select{
+  border: none;
+
+  padding-bottom: 5px;
+}
+.pagination select option{
+  border: none;
+
+  padding-bottom: 5px;
+}
+.svg-container1{
+  padding-top: 15px;
+  
+}
+
+
+.employee-image{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.employee-name{
+  position: relative;
+  color: var(--textcolortext-900, #0C1116);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  left:4px;
+  bottom: 6px;
+}
+.employee-id{
+  position: relative;
+  color: var(--primarybluepri-2700, #1589CC);
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+bottom: 23px;
+left: 54px;
+}
+.view-Popup-Close-Button{
+  position:relative;
+  z-index:1000000000000;
+  bottom:177px;
+  right:120px ;
+  border-radius:20px;
+  cursor:pointer;
+  width:30px;
+  height:30px;
+  background-color:transparent;
+  border:none;
+}
+
+.viewresult-Container{
+  position: relative;
+    left: -60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+.approved-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 12px;
+  color: #42D38B;
+}
+
+.rejected-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 12px;
+  color: #FCA5A5; 
+}
+
+/* Styles for Approved Rows */
+.approved-row {
+  position: relative; 
+}
+
+.approved-row::before {
+  content: ''; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  background-color: rgb(255, 255, 255); 
+  z-index: 1; 
+  pointer-events: none; 
+}
+
+
+.rejected-row {
+  position: relative;
+}
+
+.rejected-row::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  color: #42D38B; 
+}
+
+.overlay-text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 14px;
+  color:  red; 
+}
+
+.removing-row {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+
+.table-row {
+  transition: height 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+
+.deleted-row {
+  display: none; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, visibility 0.5s ease-in-out;
+}
+

@@ -1,0 +1,84 @@
+*{
+  font-family: 'Manrope';
+
+}
+
+
+
+.name_box {
+
+    color: "#717D8A";
+    font-family: 'Manrope';
+    font-Size: "14px";
+    font-Weight: 550;
+    line-Height: "19px";
+    letter-Spacing: "0em";
+    text-Align: "left";
+
+}
+
+.field-label {
+  font-family: 'Manrope';
+  font-size: 14px;
+  font-weight: 1000;
+  line-height: 19.12px;
+  letter-spacing: 0em;
+  color: rgb(113, 125, 138,1);
+  
+}
+
+.settings-Container {
+   display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.banner {
+  width: 1280px;
+  height: 220px;
+  background: url('../../assets/img/banner.jpg'), lightgray 50% / cover no-repeat;
+}
+
+
+
+
+.profile-Role {
+  color: gray;
+  font-family: 'Manrope';
+  font-size: 14px;
+  line-height: 19.12px;
+  color:rgba(79, 91, 103, 1);
+  text-align: left;
+}
+
+.heading-SettingsForm
+{
+  font-family: 'Manpore';
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+
+.save-Button {
+  background: rgba(123, 204, 237, 1);
+  color: #4F5B67;
+  font-family: 'Manrope', sans-serif;
+  text-transform: none;
+  width: 160px;
+  height: 44px;
+  margin-top: 15px;
+}
+
+
+.info-Grid {
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+
+

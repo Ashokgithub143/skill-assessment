@@ -1,0 +1,44 @@
+.jobseeker_Title {
+  margin-bottom: 3rem;
+}
+
+.details_Title {
+  font-size: 1.8rem;
+}
+
+.input_Div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.validUntil {
+  font-size: 1rem;
+  color: rgb(157, 150, 150);
+}
+
+.button_Section {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.column_Layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.date_Picker {
+  height: 4.4rem;
+  width: 15vw;
+  border: 0.1rem solid rgba(128, 128, 128, 0.6);
+  border-radius: 0.5rem;
+}
+
+.column_Pattern{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.questions_Grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.left {
+  grid-column: 1 / 5;
+}
+
+.right {
+  grid-column: 5 / 21;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* overflow-x: hidden; */
+}

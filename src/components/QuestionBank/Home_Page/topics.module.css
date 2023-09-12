@@ -1,0 +1,102 @@
+.paper_Style {
+  box-sizing: border-box;
+
+  width: 275px;
+  height: 100px;
+
+  margin-left: 10px;
+  margin-top: 15px;
+
+  background: #ffffff;
+  border: 1px solid #eae9ea;
+  border-radius: 8px;
+}
+.image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../../../fonts/Manrope-Regular.ttf") format("truetype");
+}
+.topic_Name {
+  position: absolute;
+  width: 38px;
+  height: 25px;
+
+  margin-left: 90px;
+  padding-top: 8px; 
+
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.chip_Style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  gap: 10px;
+
+  position: absolute;
+  width: 86px;
+  height: 20px;
+
+  margin-top: 50px;
+  margin-left: 80px;
+
+  background: #ffffff;
+  border: 1px solid #eae9ea;
+  border-radius: 16px;
+}
+
+.total_Questions {
+  width: 70px;
+  height: 12px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+
+  text-align: center;
+
+  color: #777777;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 4px;
+}
+
+.circle_Design {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+
+  margin-left: 255px;
+  margin-top: 30px;
+
+  background-color: #aad064;
+  border-radius: 900px;
+}
+.arrow_Design {
+  position: absolute;
+  left: 30.5%;
+  right: 30.5%;
+  top: 30%;
+  bottom: 29.17%;
+  
+
+  color: #ffffff;
+}

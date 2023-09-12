@@ -1,0 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Manrope';
+
+body{
+    background-color: white;
+    font-family: "Manrope";
+}
+
+.cross_Button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    color: white;
+    background-color: black;
+    border-radius: 30rem;
+    font-size: 2rem;
+
+    cursor: pointer;
+}

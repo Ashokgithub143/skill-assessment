@@ -1,0 +1,153 @@
+
+.card-flex{
+    height: 180px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #84CAFF;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding : 15px 15px 0px 15px;
+}
+
+.assessment-id{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: bolder;
+    color: #0C1116;
+    font-size: 130%;
+}
+.assessment-subject{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    color: #A8B0B9;
+    margin-bottom: 2px;
+}
+.related-topics{
+    background: #FFFFFF;
+    border: 1px solid #EAECEE;
+    border-radius: 16px;
+    font-size: 90%;
+    padding: 1px 10px 1px 10px;
+    text-align: center;
+    color: #717D8A;
+    margin-left: 5px;
+
+}
+.assessment-description{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 100%;
+    color: #4F5B67;
+}
+.assessment-takers-image{
+    width: 50%;
+    height: 60px;
+}
+.images{
+    height: 23px;
+    width: 23px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.prof1{
+    position: relative;
+    right: 0px;
+    z-index: 100;
+}
+.prof2{
+    position: relative;
+    right: 60%;
+    z-index: 110;
+
+}
+.prof3{
+    position: relative;
+    right: 120%;
+    z-index: 120;
+
+}
+.prof4{
+    position: relative;
+    right: 180%;
+    z-index: 1300;
+
+}
+.aa{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 40%;
+}
+
+.assign-to{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #1CAAE2;
+    border-radius: 15px;   
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 19px;    
+    color: #1CAAE2;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+    position: relative;
+    bottom: 8px;
+    text-transform: capitalize;
+}
+.assign-to:active {
+    background-color: #1CAAE2;
+    color : #000000;
+}
+.assign-to > img{
+    position: relative;
+    top: 1px;
+}
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    height: 20%;
+}
+.container-card{
+    position: relative;
+    width: 90%;
+    gap: .5rem;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 4;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr)); 
+
+}
+.assign-icon{
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 4px
+}
+
+.main-content{
+    z-index: 100;
+    position: relative;
+    margin-left: 270px;
+    top: 120px;
+  }
+
+  .list-of-assessments{
+    padding : 40px 0px 10px 20px;
+    font-weight: 600;
+  }
+  
+  .sort-by{
+    position: relative;
+    top: 20px;
+  }
